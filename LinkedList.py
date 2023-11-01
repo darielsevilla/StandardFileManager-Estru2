@@ -114,16 +114,3 @@ class LinkedList:
 
     def getSize(self):
         return self.size
-   
-list = LinkedList()
-list.insertAtFront(Node("tuesday"))
-list.insertAtEnd(Node("wednesday"))
-list.insertAtFront(Node("monday"))
-node1 = Node("thursday")
-list.insertAtEnd(node1)
-list.insertAtEnd(Node("friday"))
-#list.insertAtIndex(Node("burh"),7)
-list.insertAtIndex(Node("gato"),3)
-
-list.updateNode("chicken",4)
-list.print()
